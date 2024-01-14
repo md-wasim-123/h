@@ -2,7 +2,7 @@ import ProductSlider1 from '../Assets/product/productSlider1.png';
 import ProductSlider2 from '../Assets/product/productSlider2.png';
 import ProductSlider3 from '../Assets/product/productSlider3.png';
 
-export const Swiperdata = [
+ const Swiperdata = [
     {
         img: ProductSlider1,
         title: 'Store your data securely',
@@ -20,3 +20,4 @@ export const Swiperdata = [
     },
 
 ]
+export default Swiperdata

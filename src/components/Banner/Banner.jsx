@@ -21,19 +21,19 @@ const Banner = () => {
                     </button>
                     <p className='text-xs md:text-sm'>Our app is out in the market. Download now!</p>
 
-                    <div class="items-center flex gap-3 w-full flex-row">
-                        <a href="#" class="md:w-fit bg-[#11111E]  text-white rounded-lg inline-flex items-center justify-center px-3 py-1 md:py-[2px] ">
-                            <i class="fa-brands fa-google-play text-xl md:text-3xl px-1 md:px-1"></i>
-                            <div class=" rtl:text-right">
-                                <div class="text-[10px] uppercase md:tracking-widest">Go it on</div>
-                                <div class="-mt-1 text-nowrap text-sm md:text-xl font-normal">Googel Play</div>
+                    <div className="items-center flex gap-3 w-full flex-row">
+                        <a href="#" className="md:w-fit bg-[#11111E]  text-white rounded-lg inline-flex items-center justify-center px-3 py-1 md:py-[2px] ">
+                            <i className="fa-brands fa-google-play text-xl md:text-3xl px-1 md:px-1"></i>
+                            <div className=" rtl:text-right">
+                                <div className="text-[10px] uppercase md:tracking-widest">Go it on</div>
+                                <div className="-mt-1 text-nowrap text-sm md:text-xl font-normal">Googel Play</div>
                             </div>
                         </a>
-                        <a href="#" class=" md:w-fit bg-[#11111E]  text-white rounded-lg inline-flex items-center  px-3 py-[2px] ">
-                            <i class="fa-brands fa-apple  text-xl md:text-3xl px-1 md:px-2"></i>
-                            <div class="text-center rtl:text-right ">
-                                <div class="text-[10px] md:tracking-widest">Download on the</div>
-                                <div class="-mt-1  font-sans text-sm md:text-xl font-semibold">App Store</div>
+                        <a href="#" className=" md:w-fit bg-[#11111E]  text-white rounded-lg inline-flex items-center  px-3 py-[2px] ">
+                            <i className="fa-brands fa-apple  text-xl md:text-3xl px-1 md:px-2"></i>
+                            <div className="text-center rtl:text-right ">
+                                <div className="text-[10px] md:tracking-widest">Download on the</div>
+                                <div className="-mt-1  font-sans text-sm md:text-xl font-semibold">App Store</div>
                             </div>
                         </a>
                     </div>
