@@ -7,8 +7,8 @@ const Banner = () => {
 
 
     return (
-        <div className='w-full bg-img overflow-hidden py-40 md:py-0'>
-            <div className=" w-full h-screen flex flex-col-reverse items-center md:justify-around md:flex-row px-2 md:10 lg:px-[4.5rem] py-5 md:py-10 mx-auto">
+        <div className='w-full bg-img overflow-hidden '>
+            <div className=" w-full  flex flex-col-reverse items-center md:justify-around md:flex-row px-2 md:10 lg:px-[4.5rem] py-5 md:py-10 mx-auto">
                 <div className="flex items-center py-20 md:w-1/2 sm:px-5 md:px-2 md:pb-20 md:pt-10 ">
                     <div className="text-left">
                         <h2
@@ -43,11 +43,9 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="pt-8 md:w-1/2 lg:pb-20 lg:pt-10 ">
-                    <div className="relative w-full rounded  md:p-2">
-                        <div className=" w-[320px] md:w-[44vw]">
+                        
                             <img  className='w-full '  src={img1} />
-                        </div>
-                    </div>
+                      
                 </div>
             </div>
             <div className='px-2'>
