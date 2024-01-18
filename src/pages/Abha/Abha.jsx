@@ -6,8 +6,8 @@ import abha2 from '../../Assets/Abha/2.svg';
 import abha3 from '../../Assets/Abha/3.svg';
 const Abha = () => {
   return (
-    <div>
-      <div>
+    <div className='pt-32'>
+       
         <div className=' mx-4 md:mx-16 my-10'>
           <h1 className='text-xl md:text-3xl font-medium'>Discover Ayushman Bharat Health Account (ABHA)</h1>
           <p className=' text-xs md:text-base font-normal'>"ABHA, under the Ayushman Bharat Digital Mission, is a groundbreaking initiative by the Indian government. It offers individuals a unique health identifier and a centralized digital health account. Learn more about the benefits and how ABHA is revolutionizing healthcare."</p>
@@ -45,7 +45,7 @@ const Abha = () => {
             <button className=' bg-[#6CEBC6] text-black font-medium px-6 py-3 rounded my-6 text-base'>Explore Abha on Official Website</button>
           </div>
         </div>
-      </div>
+    
     </div>
   );
 }

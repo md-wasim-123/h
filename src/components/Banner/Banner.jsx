@@ -7,13 +7,13 @@ const Banner = () => {
 
 
     return (
-        <div className='w-full bg-img overflow-hidden '>
+        <div className='w-full bg-img overflow-hidden py-10 md:py-24 '>
             <div className=" w-full  flex flex-col-reverse items-center md:justify-around md:flex-row px-2 md:10 lg:px-[4.5rem] py-5 md:py-10 mx-auto">
                 <div className="flex items-center py-20 md:w-1/2 sm:px-5 md:px-2 md:pb-20 md:pt-10 ">
                     <div className="text-left">
                         <h2
-                            className="text-[35px] herr-text font-bold leading-[3rem]  text-gray-800  md:text-[48px]">
-                            Make Your Hospital Or clinic Digital.
+                            className="text-[35px] herr-text font-bold md:leading-[4rem] trek text-gray-800  md:text-[48px]">
+                            Make your hospital or clinic Digital.
                         </h2>
                         <p className="w-full mx-auto mt-3 text-sm text-black font-normal sm:text-lg md:mt-5 md:text-[18px] md:max-w-6xl">
                             Your trusted partner in digital transformation. Our innovative platform seamlessly integrates into the workflows of both hospitals and clinics, offering a comprehensive solution for patient management.
@@ -42,10 +42,8 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pt-8 md:w-1/2 lg:pb-20 lg:pt-10 ">
-                        
-                            <img  className='w-full '  src={img1} />
-                      
+                <div className="pt-8 md:w-1/2 lg:pb-20 lg:pt-10 ">   
+                  <img  className='w-full '  src={img1} />
                 </div>
             </div>
             <div className='px-2'>

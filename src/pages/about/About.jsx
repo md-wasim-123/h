@@ -11,8 +11,8 @@ const About = () => {
   return (
     <div>
       {/* //herr */}
-      <div className='md:container md:mx-auto flex items-center w-full flex-col-reverse md:flex-row md:justify-between p-5 md:p-14 md:px-20'>
-        <div className='md:w-1/2  py-3  '>
+      <div className='md:container md:mx-auto flex items-center my-16 w-full flex-col-reverse md:flex-row md:justify-between  md:py-14  md:px-20'>
+        <div className='md:w-1/2  py-3  px-5 md:px-2 '>
           <div className='hidden  md:block flex-col '>
             <Link to={'/'}><i className="fa-solid fa-arrow-left text-3xl pb-10"></i></Link>
             <h1 className='text-2xl  py-1 font-medium'>About us</h1>
