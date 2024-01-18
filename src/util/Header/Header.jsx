@@ -35,7 +35,7 @@ const Header = () => {
                         <img onClick={removehandel} className={`w-full ${Open ? "block" : "hidden"} p-1 lg:hidden `} src={close} alt="" />
                     </button>
                 </div>
-                <div className={`w-full md:absolute z-10 md:top-[6.5%] lg:m-0 md:right-0 md:w-72 text-center ${Open ? "block" : "hidden"} lg:static lg:flex lg:w-auto`}>
+                <div className={`w-full md:absolute z-10 md:top-[3.6rem]  lg:m-0 md:right-0 md:w-72 text-center ${Open ? "block" : "hidden"} lg:static lg:flex lg:w-auto`}>
                     <ul className="flex flex-col items-center justify-center transition-all duration-300 font-normal mx-3 lg:p-0 md:px-5 lg:flex-row lg:mt-0 lg:border-0 text-[17px] ">
                         {
                             Navitem.map((item) => (
