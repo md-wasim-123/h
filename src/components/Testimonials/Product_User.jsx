@@ -42,9 +42,6 @@ const Our_users = () => {
                 <p className="mt-6 mb-1 text-base md:text-[18px]   tracking-widest">"HealTether has transformed the way I manage my cardiology practice. The streamlined appointment scheduling and telemedicine features have saved me valuable time. My patients appreciate the convenience, and I can focus more on delivering personalized care. It's a game-changer in cardiac healthcare."
                 </p>
                 <h1 className='text-xl my-3 font-medium'>Dr. Sarah Thompson, Cardiologist</h1>
-                <div className="my-5">
-                  <a rel="noopener noreferrer" href="#" className="px-8 py-2 text-lg font-semibold rounded  bg-[#32856E]">Get Started</a>
-                </div>
               </div>
 
             </div>
@@ -61,9 +58,7 @@ const Our_users = () => {
                 <p className="mt-6 mb-1 text-base md:text-[18px]   tracking-widest">"HealTether has transformed the way I manage my cardiology practice. The streamlined appointment scheduling and telemedicine features have saved me valuable time. My patients appreciate the convenience, and I can focus more on delivering personalized care. It's a game-changer in cardiac healthcare."
                 </p>
                 <h1 className='text-xl my-3 font-medium'>Dr. Sarah Thompson, Cardiologist</h1>
-                <div className="my-5">
-                  <a rel="noopener noreferrer" href="#" className="px-8 py-2 text-lg font-semibold rounded  bg-[#32856E]">Get Started</a>
-                </div>
+                
               </div>
 
             </div>
@@ -80,9 +75,7 @@ const Our_users = () => {
                 <p className="mt-6 mb-1 text-base md:text-[18px]    tracking-widest">"HealTether has transformed the way I manage my cardiology practice. The streamlined appointment scheduling and telemedicine features have saved me valuable time. My patients appreciate the convenience, and I can focus more on delivering personalized care. It's a game-changer in cardiac healthcare."
                 </p>
                 <h1 className='text-xl my-3 font-medium'>Dr. Sarah Thompson, Cardiologist</h1>
-                <div className="my-5">
-                  <a rel="noopener noreferrer" href="#" className="px-8 py-2 text-lg font-semibold rounded  bg-[#32856E]">Get Started</a>
-                </div>
+                 
               </div>
 
             </div>
@@ -99,9 +92,7 @@ const Our_users = () => {
                 <p className="mt-6 mb-1 text-base md:text-[18px]  tracking-widest">"HealTether has transformed the way I manage my cardiology practice. The streamlined appointment scheduling and telemedicine features have saved me valuable time. My patients appreciate the convenience, and I can focus more on delivering personalized care. It's a game-changer in cardiac healthcare."
                 </p>
                 <h1 className='text-xl my-3 font-medium'>Dr. Sarah Thompson, Cardiologist</h1>
-                <div className="my-5">
-                  <a rel="noopener noreferrer" href="#" className="px-8 py-2 text-lg font-semibold text-white rounded  bg-[#32856E]">Get Started</a>
-                </div>
+                
               </div>
 
             </div>
@@ -109,10 +100,10 @@ const Our_users = () => {
         </SwiperSlide>
         <div className="slider-controler ">
           <div className="swiper-button-prev slider-arrow">
-            <i class="fa-solid fa-angle-left text-2xl text-black"></i>
+            <i className="fa-solid fa-angle-left text-2xl text-black"></i>
           </div>
           <div className="swiper-button-next slider-arrow">
-            <i class="fa-solid fa-angle-right text-2xl text-black"></i>
+            <i className="fa-solid fa-angle-right text-2xl text-black"></i>
           </div>
           <div className="swiper-pagination"></div>
         </div>

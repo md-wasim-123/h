@@ -1,9 +1,9 @@
-import fr1 from '../Assets/Features/fea1.png'
-import fr2 from '../Assets/Features/fea2.png'
-import fr3 from '../Assets/Features/fea3.png'
-import fr4 from '../Assets/Features/fea4.png'
-import fr5 from '../Assets/Features/fea5.png'
-import fr6 from '../Assets/Features/fea6.png'
+import fr1 from '../Assets/Features/fea1.svg'
+import fr2 from '../Assets/Features/fea2.svg'
+import fr3 from '../Assets/Features/fea3.svg'
+import fr4 from '../Assets/Features/fea4.svg'
+import fr5 from '../Assets/Features/fea5.svg'
+import fr6 from '../Assets/Features/fea6.svg'
 
  const data = [
     {

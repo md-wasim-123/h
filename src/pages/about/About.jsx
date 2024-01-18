@@ -14,7 +14,7 @@ const About = () => {
       <div className='md:container md:mx-auto flex items-center w-full flex-col-reverse md:flex-row md:justify-between p-5 md:p-14 md:px-20'>
         <div className='md:w-1/2  py-3  '>
           <div className='hidden  md:block flex-col '>
-            <Link to={'/'}><i class="fa-solid fa-arrow-left text-3xl pb-10"></i></Link>
+            <Link to={'/'}><i className="fa-solid fa-arrow-left text-3xl pb-10"></i></Link>
             <h1 className='text-2xl  py-1 font-medium'>About us</h1>
           </div>
           <p className='text-justify text-base md:text-lg tracking-tight'>At HealTether, we're on a mission to revolutionize healthcare, making it convenient, accessible, and high-quality for everyone. Our innovative platform empowers individuals by bridging the gap between patients and healthcare providers, putting the power of healthcare in the palm of your hand.</p><br />
@@ -22,7 +22,7 @@ const About = () => {
         </div>
         <div className='md:w-2/5  '>
           <div className='flex sm:block md:hidden flex-col p-4'>
-            <i class="fa-solid fa-arrow-left"></i>
+            <i className="fa-solid fa-arrow-left"></i>
             <h1 className='text-2xl  py-1 font-medium'>About us</h1>
           </div>
           <img className='w-full max-w-5xl ' src={about} alt="" />
