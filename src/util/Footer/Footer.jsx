@@ -163,7 +163,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="">
-            <p className="text-base text-[#FDFCFD] ">© Copyright 2024 HealTether. All Rights Reserved</p>
+            <p className="text-sm md:text-base text-center text-[#FDFCFD] ">© Copyright 2024 HealTether. All Rights Reserved</p>
           </div>
         </div>
       </div>
