@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../components/Button/Button';
 
 const ProductDiv = ({data}) => {
   
@@ -14,7 +15,6 @@ const ProductDiv = ({data}) => {
                   <li className=' list-disc'>{data?.list2}</li>
                   <li className={`${data?.list3?'list-dist':'list-none'} `}>{data?.list3}</li>
                 </ul>
-                <button className=' bg-[#32856E] text-white py-3 px-6 w-[144px] mx-4 my-2 rounded'>Get Started</button>
             </div>
             <div className=' md:w-[50%] w-[100%]'>
               <img src={data?.img} />
@@ -39,7 +39,6 @@ const ProductNotBlue=()=>{
                   <li className=' list-disc'>Schedule appointments quickly</li>
                   <li className=' list-disc'>Schedule appointments quickly</li>
                 </ul>
-                <button className=' bg-[#32856E] text-white py-3 px-6 w-[144px] mx-4 my-2 rounded'>Get Started</button>
             </div>
             <div className=' w-[50%] kw:w-[100%] h-full flex flex-col justify-center '>
               <div className=' border-l-4 border-black my-4'>
