@@ -3,7 +3,7 @@ import img from '../../Assets/contact/contact.svg'
 const Contact = () => {
     return (
         <div className='my-16 md:p-0 w-full h-full '>
-            <h1 className='text-2xl px-5  md:text-pretty md:px-20  py-5    font-semibold'>Connect with us</h1>
+            <h1 className='text-2xl px-5  md:text-pretty md:px-20  py-5 font-medium'>Connect with us</h1>
             <div className='md:container md:mx-auto md:px-20   w-full lg:max-w-7xl flex items-center justify-center  flex-col'>
                 {/* form box design */}
                 <div className='flex items-center justify-center w-full shadow-2xl '>

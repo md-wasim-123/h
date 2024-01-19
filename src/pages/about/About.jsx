@@ -11,27 +11,29 @@ const About = () => {
   return (
     <div>
       {/* //herr */}
-      <div className='md:container md:mx-auto flex items-center my-16 w-full flex-col-reverse md:flex-row md:justify-between  md:py-14  md:px-20'>
-        <div className='md:w-1/2  py-3  px-5 md:px-2 '>
-          <div className='hidden  md:block flex-col '>
+      <div className='md:container md:mx-auto flex items-center my-16 w-full flex-col-reverse md:flex-row md:justify-between  md:py-14  md:ps-20'>
+        <div className='w-full lg:w-1/2  py-3  px-5 md:px-2 '>
+          <div className='hidden  md:block flex-col  '>
             <Link to={'/'}><i className="fa-solid fa-arrow-left text-3xl pb-10"></i></Link>
             <h1 className='text-2xl  py-1 font-medium'>About us</h1>
           </div>
-          <p className='text-justify text-base md:text-lg tracking-tight'>At HealTether, we're on a mission to revolutionize healthcare, making it convenient, accessible, and high-quality for everyone. Our innovative platform empowers individuals by bridging the gap between patients and healthcare providers, putting the power of healthcare in the palm of your hand.</p><br />
+          <p className='text-justify text-base md:text-lg tracking-tight'>At HealTether, we're on a mission to revolutionize healthcare, making it convenient, accessible, and high-quality for everyone. Our innovative platform empowers individuals by bridging the gap between patients and healthcare providers, putting the power of healthcare in the palm of your hand.</p> 
           <p className='text-justify text-base md:text-lg tracking-tight'>Our mission is to create a seamless connection between individuals and a network of qualified medical professionals, providing access to a wide range of medical services while offering personalized care tailored to specific needs.</p>
         </div>
-        <div className='md:w-2/5  '>
-          <div className='flex sm:block md:hidden flex-col p-4'>
+        <div className='w-full lg:w-1/2   '>
+          <div className='flex sm:block md:hidden flex-col   p-4'>
             <i className="fa-solid fa-arrow-left"></i>
             <h1 className='text-2xl  py-1 font-medium'>About us</h1>
           </div>
-          <img className='w-full max-w-5xl ' src={about} alt="" />
+          <div className='w-60 flex items-center justify-center mx-auto'>
+          <img className='w-full' src={about} alt="" />
+          </div>
         </div>
       </div>
       {/* //box */}
       <div className='md:container md:mx-auto'>
         <h1 className='w-full text-3xl text-center py-10 font-semibold'>Founding Team of HealTether</h1>
-        <div className='flex items-center flex-wrap justify-center  p-10 gap-10'>
+        <div className='flex items-center flex-wrap justify-center lg:justify-around p-5 md:p-10 gap-10'>
           <div className='card  md:w-1/3'>
             <div className='img'>
               <img src={img1} alt="" />

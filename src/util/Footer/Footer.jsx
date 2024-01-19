@@ -13,9 +13,9 @@ const Footer = () => {
 
           <div className='hidden md:block'>
             <div className="flex items-center flex-wrap gap-3 w-full flex-row">
-              <a href="#" className="md:w-fit bg-[#11111E]  text-white rounded-lg inline-flex items-center justify-center px-3 py-1 md:py-[3px] ">
+              <a href="#" className="md:w-fit bg-[#11111E]  text-white rounded-lg inline-flex items-center justify-center  py-1 md:py-[3px] ">
                 <i className="fa-brands fa-google-play text-xl md:text-3xl px-1 "></i>
-                <div className=" rtl:text-right">
+                <div className="">
                   <div className="text-[10px] uppercase md:tracking-widest">Go it on</div>
                   <div className="-mt-1 text-nowrap text-sm md:text-xl font-normal">Googel Play</div>
                 </div>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <i className="fa-brands fa-apple  text-xl md:text-4xl px-1 md:px-2"></i>
                 <div className="text-center rtl:text-right ">
                   <div className="text-[10px] md:tracking-widest">Download on the</div>
-                  <div className="-mt-1  font-sans text-sm md:text-xl font-semibold">App Store</div>
+                  <div className="-mt-1  font-sans text-sm md:text-xl font-normal">App Store</div>
                 </div>
               </a>
             </div>
