@@ -1,6 +1,6 @@
 import React from 'react';
 // import ArrowComp from '../ArrowComp';
-
+import Button from '../../components/Button/Button'
 import abha1 from '../../Assets/Abha/1.svg';
 import abha2 from '../../Assets/Abha/2.svg';
 import abha3 from '../../Assets/Abha/3.svg';
@@ -33,34 +33,19 @@ const Abha = () => {
         <h1 className=' text-xl font-semibold my-4'>How to Register</h1>
         <div>
           <ul className=' mx-5 flex flex-col gap-3'>
-            <li className=' list-disc text-xs md:text-base flex  '>
-              <div className='flex items-center justify-center gap-2'>
-                <i class="fa-solid fa-circle text-[5px]"></i>
-                <p className='font-semibold me-1'>
-                  Step 1: </p>
-              </div>
-              <p>Visit the official Ayushman Bharat website.</p>
+            <li className=' list-disc text-xs md:text-base  '>
+              <span className='font-semibold'>Step 1: </span> Visit the official Ayushman Bharat website
             </li>
-
-            <li className=' list-disc text-xs md:text-base flex'>
-              <div className='flex items-center justify-center gap-2'>
-                <i class="fa-solid fa-circle text-[5px]"></i>
-                <p className='font-semibold me-1'>Step 2:</p>
-              </div>
-              <p>Follow the registration process to create your ABHA account.</p>
+            <li className=' list-disc text-xs md:text-base '>
+              <span className='font-semibold'>Step 2:</span> Follow the registration process to create your ABHA account.
             </li>
-            <li className=' list-disc text-xs md:text-base flex'>
-              <div className='flex items-center justify-center gap-2'>
-                <i class="fa-solid fa-circle text-[5px]"></i>
-                <p className='font-semibold me-1'>
-                  Step 3:</p>
-              </div>
-              <p>Verify your identity and link your health records to your unique identifier.</p>
+            <li className=' list-disc text-xs md:text-base '>
+              <span className='font-semibold'>Step 3:</span> Verify your identity and link your health records to your unique identifier.
             </li>
           </ul>
         </div>
-        <div className=' flex items-center justify-center'>
-          <button className=' bg-[#6CEBC6] text-black font-medium px-6 py-3 rounded my-6 text-base'>Explore Abha on Official Website</button>
+        <div className=' flex items-center justify-center mt-12'>
+          <Button text='Explore Abha on Official Website' color='#6CEBC6' />
         </div>
       </div>
 

@@ -3,10 +3,10 @@ import React from 'react'
 import './style.css'
 
 const Button = (props) => {
-  console.log(props)
+  console.log(props.wi)
   return (
     <div>
-      <button type="button" className={`text-black bg-[${props.color}] font-semibold lg:rounded lg:shadow-2xl text-[16px] px-[26px] py-[10px] text-center btn`}>
+      <button type="button" className={`text-black bg-[${props.color}]  font-semibold lg:rounded lg:shadow-2xl text-[16px] px-[26px] py-[10px] text-center btn`}>
         {props.text}
       </button>
     </div>

@@ -8,6 +8,7 @@ import 'swiper/css/scrollbar';
 import './keyFeature.Module.css';
 // import './keyFeature.css'
 import Swiperdata from '../../data/SwiperData'
+import Button from '../../components/Button/Button';
 
 
 
@@ -23,12 +24,11 @@ const KeyFeatures = () => {
                         <h1 className='text-2xl md:text-[2.2rem] font-semibold text-white'>
                             Store your data securely.
                         </h1>
-                        <p className='text-base text-balance p-1 text-white'>
+                        <p className='text-base text-balance p-1 text-white pb-3'>
                             Your trusted partner in digital transformation. Our innovative platform seamlessly integrates into the workflows of both hospitals and clinics, offering a comprehensive solution for patient management.
                         </p>
-                        <button className='bg-[#F5F5F5] p-2 my-2 rounded-md font-bold tracking-tight px-7 shadow-2xl'>
-                            Sign up now
-                        </button>
+                        <Button text='Sign up now' color='#FDFCFD' />
+                        
                     </div>
                     {/* carousel div  lg:w-[50%]*/}
                     <div className='   w-[95%] md:w-[70%] lg:w-[50%] overflow-hidden'>

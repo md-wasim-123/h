@@ -12,6 +12,7 @@ import ourProduct2 from '../../Assets/product/ourProduct2.png';
 import ourProduct3 from '../../Assets/product/ourProduct3.png';
 import Banner from '../../components/Banner/Banner';
 import Features from '../../components/Features/Features';
+import Button from '../../components/Button/Button';
 
 // import productBanner from '../images/product/product-banner.png'
 
@@ -65,8 +66,8 @@ const Products = () => {
       <Product_User />
       <div className='bg-img-fea h-[250px] flex flex-col justify-center items-center'>
         <h1 className=' font-semibold text-center text-lg md:text-3xl herr-text'>Ready to embark on the journey of transformation?</h1>
-        <p className=' text-base font-normal'>Join our network of doctors and </p>
-        <button className=' bg-[#6CEBC6] text-black font-medium rounded py-3 px-6 my-6'>Get Started</button>
+        <p className=' text-base font-normal pb-5'>Join our network of doctors and </p>
+        <Button text='Get Started' color='#6CEBC6' />
       </div>
     </div>
   );

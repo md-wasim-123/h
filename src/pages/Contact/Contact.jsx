@@ -16,7 +16,7 @@ const Contact = () => {
                                         Your name
                                     </label>
                                     <input className="appearance-none block w-full bg-[#F8F7FC] text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Enter your name here" />
-                                    {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
+                                    
                                 </div>
 
                                 <div className="w-full md:w-1/2 lg:w-full px-3 ">
@@ -24,21 +24,21 @@ const Contact = () => {
                                         Enter your phone number
                                     </label>
                                     <input className="w-full bg-[#F8F7FC] text-gray-700 border rounded py-3 px-4 mb-3   focus:outline-none focus:bg-white" id="grid-first-name" type="tel" placeholder="Enter your phone number" />
-                                    {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
+                                   
                                 </div>
                                 <div className="w-full md:w-1/2 lg:w-full px-3 mb-6 md:mb-0">
                                     <label className="block tracking-wide text-[18px] font-medium mb-2" htmlFor="grid-first-name">
                                         Clinic/Hospital speciality
                                     </label>
                                     <input className="appearance-none block w-full bg-[#F8F7FC] text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Enter your Speciality" />
-                                    {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
+                                    
                                 </div>
                                 <div className="w-full md:w-1/2 lg:w-full px-3 mb-6 md:mb-0">
                                     <label className="block tracking-wide text-[18px] font-medium mb-2" htmlFor="grid-first-name">
                                         Enter your speciality
                                     </label>
                                     <input className="appearance-none block w-full bg-[#F8F7FC] text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Enter your location" />
-                                    {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
+                        
                                 </div>
                                 <div className='flex items-center w-full justify-center py-8 px-5'>
                                     <button className='bg-[#6CEBC6]  lg:w-full  p-2 rounded-md tracking-widest  px-7 text-black font-semibold'>
