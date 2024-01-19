@@ -19,10 +19,12 @@ const Banner = () => {
                             Your trusted partner in digital transformation. Our innovative platform seamlessly integrates into the workflows of both hospitals and clinics, offering a comprehensive solution for patient management.
                         </p>
                         <div className="flex flex-col justify-around py-2 gap-5 w-full  ">
+                            <div className='flex items-center justify-center md:justify-start'>
                            <Button text='Get Started' color='#6CEBC6' />
-                            <p className='text-xs md:text-sm pt-5'>Our app is out in the market. Download now!</p>
+                            </div>
+                            <p className='text-xs md:text-sm pt-5 text-center md:text-left'>Our app is out in the market. Download now!</p>
                         </div>
-                        <div className="items-center flex gap-3  w-full flex-row">
+                        <div className="items-center flex gap-3  w-full flex-row justify-center md:justify-start">
                             <a href="#" className="md:w-fit bg-[#11111E]  text-white rounded-lg inline-flex items-center justify-center px-3 py-1 md:py-[2px] ">
                                 <i className="fa-brands fa-google-play text-xl md:text-3xl px-1 md:px-1"></i>
                                 <div className=" rtl:text-right">
