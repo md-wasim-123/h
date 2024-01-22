@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -80,8 +81,16 @@
 }
 
  
+.all-text{
+  font-family: 'Montserrat', sans-serif;
 
+}
 
+button{
+  font-family: 'Montserrat', sans-serif;
+  
+  /* font-family: 'Poppins', sans-serif; */
+}
 
 .sho-bg {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
@@ -112,4 +121,63 @@
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* =========================Banner animation ================================= */
+
+.animateee{
+  position: absolute;
+    top: -10px;
+    left: -10px;
+    transition: opacity 1s;
+    transform: translateX(100vw) translateY(100vh);
+  
+}
+
+.animateee1{
+  animation: bannerSlider 5s infinite forwards;
+  transform-origin: center;
+}
+
+@keyframes bannerSlider {
+  0%{
+    transform:  translateX(100vw) translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  40%{
+    transform:  translateX(10vw) translateY(10vh) scale(1);
+    opacity: 1;
+  }
+  60%{
+    transform:  translateX(10vw) translateY(10vh) scale(1);
+    opacity: 1;
+  }
+  100%{
+    transform:  translateX(100vw) translateY(-80vh) scale(0);
+    opacity: 0;
+  }
+}
+@media (max-width:768px){
+   .animateee1{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+    animation: fadeInOut 5s infinite forwards;
+   }
+}
+
+@keyframes fadeInOut {
+  0%{
+  opacity:0;
+  }
+  10%{
+    opacity:1
+  }
+  90%{
+    opacity:1
+  }
+  100%{
+    opacity:0;
+  }
 }

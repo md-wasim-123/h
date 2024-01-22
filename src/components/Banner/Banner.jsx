@@ -1,26 +1,53 @@
-import React, { useEffect } from 'react'
-import img1 from '../../Assets/Home/1.svg'
- 
+import React, { useEffect, useState } from 'react'
+import laptop from '../../Assets/Home/1.svg';
+import mobile from '../../Assets/Home/mobile.svg';
+import tab from '../../Assets/Home/tab.svg';
 import Card from '../Card/Card'
 import Button from '../Button/Button'
 
 const Banner = () => {
 
 
+    let interval;
+
+    useEffect(() => {
+
+
+        let images = document.querySelectorAll('.animateee');
+        let animationCount = 1;
+
+        interval = setInterval(() => {
+
+            images.forEach((e) => {
+                e.classList.remove('animateee1');
+
+            })
+
+            images.forEach((e) => { e.classList.remove(['animateee1', 'show']) })
+
+            animationCount == 3 ? animationCount = 0 : null;
+
+            images[animationCount++].classList.add("animateee1");
+
+            return () => clearInterval(interval);
+        }, 5000);
+    })
+
     return (
         <div className='w-full bg-img overflow-hidden py-10 md:py-24 '>
-            <div className=" w-full flex flex-col-reverse items-center md:justify-around md:flex-row px-2 md:10 lg:px-[4.5rem] py-5 md:pt-10 mx-auto">
-                <div className="flex items-center py-20 md:w-1/2 sm:px-5 md:px-2 md:pb-20 md:pt-10 ">
+            <div className=" w-full flex flex-col-reverse md:flex-row items-stretch md:justify-around md:10  py-5 md:pt-10 mx-auto h-[60rem] md:h-auto">
+                <div className="flex  items-center py-20 md:w-1/2 sm:px-5 md:px-2 md:pb-20 md:pt-10 px-2 lg:px-[4.5rem] ">
                     <div className="text-left">
-                        <h2 className="text-[35px] herr-text font-medium leading-[3.7rem]  text-gray-800 md:text-[48px]">
+                        <h2 className="text-[35px] all-text font-medium leading-[3.7rem]  text-gray-800 md:text-[48px]">
                             Make your hospital or clinic Digital.
                         </h2>
-                        <p style={{lineHeight:"1.5rem"}} className="w-full text-sm text-black sm:text-lg md:text-[16px] ">
+                        <p style={{ lineHeight: "1.5rem" }} className="w-full text-sm text-black sm:text-lg md:text-[16px] ">
                             Your trusted partner in digital transformation. Our innovative platform seamlessly integrates into the workflows of both hospitals and clinics, offering a comprehensive solution for patient management.
                         </p>
+
                         <div className="flex flex-col justify-around py-2 gap-5 w-full  ">
                             <div className='flex items-center justify-center md:justify-start'>
-                           <Button text='Get Started' color='#6CEBC6' />
+                                <Button text='Get Started' color='#6CEBC6' />
                             </div>
                             <p className='text-xs md:text-sm pt-5 text-center md:text-left'>Our app is out in the market. Download now!</p>
                         </div>
@@ -42,8 +69,12 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pt-8 md:w-1/2 lg:pb-20 lg:pt-10 ">   
-                  <img  className='w-full '  src={img1} />
+                <div className=" overflow-hidden flex-1 relative w-[100%]  -mt-5 ">
+
+                    <img className=' max-w-[400px] animateee animateee1' src={laptop} />
+                    <img className=' max-w-[400px] animateee ' src={tab} />
+                    <img className=' max-w-[400px] animateee ' src={mobile} />
+
                 </div>
             </div>
             <div className='px-2'>

@@ -4,7 +4,7 @@ const Connect = () => {
     return (
         <div className='lg:container flex items-center flex-col lg:mx-auto w-full my-5'>
             <form className="w-full max-w-6xl mx-auto bg-[#FDFCFD] shadow-2xl rounded-lg md:px-10 py-4">
-                <h1 className='text-2xl md:text-[2.2rem] font-semibold text-black px-3  py-8'>Connect with us</h1>
+                <h1 className='text-2xl md:text-[2.2rem] font-semibold all-text text-black px-3  py-8'>Connect with us</h1>
                 <div className="flex flex-wrap w-full mb-6">
                     <div className="w-1/2 px-3 mb-6 md:mb-0">
                         <label className="block tracking-wide text-[18px] font-medium mb-2" htmlFor="grid-first-name">

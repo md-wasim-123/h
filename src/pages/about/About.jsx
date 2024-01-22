@@ -15,7 +15,7 @@ const About = () => {
         <div className='w-full lg:w-1/2  py-3  px-5 md:px-2 '>
           <div className='hidden  md:block flex-col  '>
             <Link to={'/'}><i className="fa-solid fa-arrow-left text-3xl pb-10"></i></Link>
-            <h1 className='text-2xl  py-1 font-medium'>About us</h1>
+            <h1 className='text-2xl all-text  py-1 font-medium'>About us</h1>
           </div>
           <p className='text-justify text-base md:text-lg tracking-tight'>At HealTether, we're on a mission to revolutionize healthcare, making it convenient, accessible, and high-quality for everyone. Our innovative platform empowers individuals by bridging the gap between patients and healthcare providers, putting the power of healthcare in the palm of your hand.</p> 
           <p className='text-justify text-base md:text-lg tracking-tight'>Our mission is to create a seamless connection between individuals and a network of qualified medical professionals, providing access to a wide range of medical services while offering personalized care tailored to specific needs.</p>

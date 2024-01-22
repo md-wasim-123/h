@@ -1,51 +1,18 @@
 import React from 'react';
 import KeyFeatures from './KeyFeatures';
-import ProductDiv, { ProductNotBlue } from './ProductDiv';
 import Product_User from '../../components/Testimonials/Product_User'
-
-// import Features from '../home/Features';
-
-
-// images
-import ourProduct1 from '../../Assets/product/ourProduct1.png';
-import ourProduct2 from '../../Assets/product/ourProduct2.png';
-import ourProduct3 from '../../Assets/product/ourProduct3.png';
 import Banner from '../../components/Banner/Banner';
 import Features from '../../components/Features/Features';
 import Button from '../../components/Button/Button';
+// images
 
-// import productBanner from '../images/product/product-banner.png'
-
-const productData = [
-  {
-    img: ourProduct1,
-    heading: 'Appointments Management',
-    list1: 'Schedule appointments quickly',
-    list2: 'Cancel or Reschedule appointments.',
-    list3: ' Schedule follow-up appointments.',
-    btn: 'Get Started'
-  },
-
-  {
-    img: ourProduct2,
-    heading: 'Connect with Patients',
-    list1: ' Now no more waiting in long queue. Easy appointment scheduling with integration of Whatsapp.',
-    list2: 'Send prescriptions, receipts and other documents to patients on Whatsapp.',
-    list3: ' Forage stronger bonds with your patients.',
-    btn: 'Get Started'
-  },
-
-  {
-    img: ourProduct3,
-    heading: 'Get detailed Analytics Report',
-    list1: 'You can analyze the appointment data, payments data to get valuable insights on business.',
-    list2: 'Analyze the patient data to derive valuable insights.',
-  }
-
-]
+import first from '../../Assets/product/1.gif'
+import second from '../../Assets/product/chat.gif'
+import third from '../../Assets/product/analytics.gif'
 
 
 const Products = () => {
+
   return (
     <div>
       <Banner />
@@ -56,11 +23,91 @@ const Products = () => {
           <p className=' text-center text-base font-normal'>One stop solution for your Practice management</p>
         </div>
 
-        <ProductDiv data={productData[0]} />
-        <ProductNotBlue />
-        <ProductDiv data={productData[1]} />
-        <ProductNotBlue />
-        <ProductDiv data={productData[2]} />
+        {/* ==================== */}
+        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto'>
+          <div className=' w-[50%] kw:w-[100%] flex flex-col justify-center'>
+            <div className=' border-l-4 border-black my-4'>
+              <h1 className=' py-3 px-2 text-[28px] font-medium'>Appointments Management</h1>
+            </div>
+            <ul className='mx-5'>
+              <li className=' list-disc my-2'><b>Schedule</b> appointments quickly</li>
+              <li className=' list-disc my-2'>Cancel or Reschedule appointments.</li>
+              <li className=' list-disc my-2'>Schedule <b>follow-up</b> appointments.</li>
+            </ul>
+          </div>
+          <div className=' md:w-[50%] w-[100%]'>
+            <img src={first} />
+          </div>
+        </div>
+
+        <div className=' flex w-[80%] kw:flex-col  mx-auto my-6 '>
+            <div className=' w-[50%] kw:w-[80%] flex flex-col justify-center'>
+                <div className=' border-l-4 border-black my-4'>
+                  <h1 className=' py-3 px-2 text-[28px] font-medium'>Store, Access & Analyze records</h1>
+                </div>
+                <ul className='mx-5'>
+                  <li className=' list-disc my-2'><b>Patient records via UHI integration -</b> to deliver appropriate and wholistic care to patients.</li>
+                  <li className=' list-disc my-2'><b>Appointments records -</b> to maintain and analyze them.</li>
+                  <li className=' list-disc my-2'><b>Payment records -</b> to analyze get revenue insights.</li>
+                </ul>
+            </div>
+            <div className=' w-[50%] kw:w-[100%] h-full flex flex-col justify-center '>
+              <div className=' border-l-4 border-black my-4'>
+                <h1 className=' py-3 px-2 text-[28px] font-medium'>Manage Staff</h1>
+              </div>
+              <ul className='mx-5'>
+                <li className=' list-disc my-2'><b>Maintain</b> Staff <b>records</b> digitally.</li>
+                <li className=' list-disc my-2'>Get <b>Privilege protected features</b> to allow staff use right features.</li>
+              </ul>
+            </div>
+        </div>
+        
+        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto'>
+          <div className=' w-[50%] kw:w-[100%] flex flex-col justify-center'>
+            <div className=' border-l-4 border-black my-4'>
+              <h1 className=' py-3 px-2 text-[28px] font-medium'>Connect with Patients</h1>
+            </div>
+            <ul className='mx-5'>
+              <li className=' list-disc my-2'>Now no more waiting in long queue. Easy appointment scheduling with integration of <b>Whatsapp</b>.</li>
+              <li className=' list-disc my-2'><b>Send prescriptions, receipts</b> and other documents to patients on Whatsapp.</li>
+              <li className=' list-disc my-2'>Forage stronger bonds with your patients.</li>
+            </ul>
+          </div>
+          <div className=' md:w-[50%] w-[100%]'>
+            <img src={second} />
+          </div>
+        </div>
+
+        <div className=' flex w-[80%] kw:flex-col  mx-auto my-6 '>
+            <div className=' w-[50%] kw:w-[80%] flex flex-col justify-center'>
+                <div className=' border-l-4 border-black my-4'>
+                  <h1 className=' py-3 px-2 text-[28px] font-medium'>Receive payments</h1>
+                </div>
+                <ul className='mx-5'>
+                  <li className=' list-disc my-2'>Now receive payments <b>online securely.</b></li>
+                  <li className=' list-disc my-2'>You can also receive them <b>offline by cash</b> and maintain the records for later use.</li>
+                  
+                </ul>
+            </div>
+           
+        </div>
+
+        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto'>
+          <div className=' w-[50%] kw:w-[100%] flex flex-col justify-center'>
+            <div className=' border-l-4 border-black my-4'>
+              <h1 className=' py-3 px-2 text-[28px] font-medium'>Get detailed Analytics Report</h1>
+            </div>
+            <ul className='mx-5'>
+              <li className=' list-disc my-2'>You can analyze the <b>appointment data, payments data </b>to get valuable insights on business.</li>
+              <li className=' list-disc my-2'>Analyze the <b>patient data</b> to derive valuable insights.</li>
+            </ul>
+          </div>
+          <div className=' md:w-[50%] w-[100%]'>
+            <img src={third} />
+          </div>
+        </div>
+
+
       </div>
       <KeyFeatures />
       <Product_User />

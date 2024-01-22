@@ -5,7 +5,7 @@ const Features = () => {
 
     return (
         <div className='w-full container mx-auto max-w-7xl '>
-            <h1 className='text-3xl font-medium px-6 py-3 text-center  md:px-20'>Features</h1>
+            <h1 className='text-3xl font-medium px-6 py-3 text-center all-text md:px-20'>Features</h1>
             <div className='grid grid-cols-2 md:grid-cols-3  gap-5 w-full md:px-5 lg:px-16'>
                 {data.map((item) => (
                     <div key={item.img} className='w-[45vw] md:w-[245px] lg:w-[350px] mx-auto fea-sha flex items-center md:justify-center flex-col h-auto lg:h-[300px] rounded-lg py-5 lg:py-20 px-2 md:px-4 gap-3 my-3'>
