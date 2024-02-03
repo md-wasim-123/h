@@ -9,7 +9,6 @@ const Contact = () => {
                 <div className='text-2xl px-5  md:text-pretty md:px-20 md:ps-28 lg:ps-20 all-text  py-5 font-medium'>
                     <img className='mb-5 my-5' src={arrow} alt="" />
                     <h1 className='py-5'>Connect with us</h1>
-
                 </div>
 
                 <div className='md:container md:mx-auto md:px-20   w-full lg:max-w-7xl flex items-center justify-center  flex-col'>

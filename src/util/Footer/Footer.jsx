@@ -3,7 +3,7 @@ import footerimg from '../../Assets/Svg/footer.svg'
 import location from '../../Assets/icon/location.svg'
 import { Link } from 'react-router-dom'
 const Footer = () => {
- const [time,setTime]= useState(new Date())
+  
   return (
     <footer className="bg-[#32856E] rounded-tl-3xl rounded-tr-3xl w-full overflow-hidden ">
       <div className="grid md:grid-cols-3  lg:container lg:mx-auto lg:py-6 lg:px-16 ">
@@ -60,7 +60,7 @@ const Footer = () => {
 
             </div>
             <div className="">
-              <p className="text-base text-[#FDFCFD] ">© Copyright {time.getFullYear()} HealTether. All Rights Reserved</p>
+              <p className="text-base text-[#FDFCFD] ">© Copyright 2024 HealTether. All Rights Reserved</p>
             </div>
           </div>
         </div>
@@ -93,9 +93,6 @@ const Footer = () => {
                 <Link to={'/'} className="hover:underline">Complaints</Link>
               </p>
             </div>
-
-
-
           </div>
         </div>
         {/* contact section */}
@@ -167,12 +164,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="">
-            <p className="text-sm md:text-base text-center text-[#FDFCFD] ">© Copyright {time.getFullYear} HealTether. All Rights Reserved</p>
+            <p className="text-sm md:text-base text-center text-[#FDFCFD] ">© Copyright 10 HealTether. All Rights Reserved</p>
           </div>
         </div>
       </div>
     </footer>
-
   )
 }
 

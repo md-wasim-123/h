@@ -135,7 +135,7 @@ button{
 }
 
 .animateee1{
-  animation: bannerSlider 5s infinite forwards;
+  animation: bannerSlider 2s infinite forwards;
   transform-origin: center;
 }
 
