@@ -79,7 +79,9 @@ const About = () => {
             <div className='content'>
               <h1 className='text-xl md:text-2xl font-semibold py-1'>Dr. Surya Kapoor - Founder & CEO</h1>
               <p className='text-sm md:text-[18px] leading-7'>Dr. Kapoor is a seasoned healthcare professional with a background in internal medicine. She envisioned HealTether to bridge the gap between patients and healthcare providers, driven by her passion for making healthcare more accessible.</p>
+              <div className='p-3 bg-white rounded-full shadow-2xl w-14'>
               <img src={img3} alt="" />
+              </div>
             </div>
           </div>
           <div className='card md:w-[45%]'>
@@ -90,7 +92,9 @@ const About = () => {
               <div className='content'>
                 <h1 className='text-xl md:text-2xl font-semibold py-1'>Dr. Aisha Khan</h1>
                 <p className='text-sm md:text-[18px] leading-7'>Dr. Kapoor is a seasoned healthcare professional with a background in internal medicine. She envisioned HealTether to bridge the gap between patients and healthcare providers, driven by her passion for making healthcare more accessible.</p>
-                <img src={img3} alt="" />
+                <div className='p-3 bg-white rounded-full shadow-2xl w-14'>
+              <img src={img3} alt="" />
+              </div>
               </div>
             </div>
           </div>
