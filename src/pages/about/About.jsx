@@ -10,7 +10,7 @@ import about from '../../Assets/About/aboutlogo.png'
 
 const About = () => {
   return (
-    <div className='md:container md:mx-auto'>
+    <div className='md:container md:mx-auto '>
       {/* //herr */}
       <div className='flex items-center my-16 w-full flex-col-reverse md:flex-row md:justify-between  md:py-14  md:ps-20'>
         <div className='w-full lg:w-1/2  py-3  px-5 md:px-2 '>

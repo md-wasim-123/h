@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 import arrow from '../../Assets/icon/arrow.svg'
 const Abha = () => {
   return (
-    <div className='pt-32'>
+    <div className='pt-32 min-h-screen w-full md:container md:mx-auto'>
 
-      <div className=' mx-4 md:mx-16 my-7'>
+      <div className=' mx-4 md:mx-16 my-7 '>
         <img className='py-2' src={arrow} alt="" />
         <h1 className='text-xl md:text-3xl font-medium all-text mt-5'>Discover Ayushman Bharat Health Account (ABHA)</h1>
         <p className=' text-xs md:text-base font-normal'>"ABHA, under the Ayushman Bharat Digital Mission, is a groundbreaking initiative by the Indian government. It offers individuals a unique health identifier and a centralized digital health account. Learn more about the benefits and how ABHA is revolutionizing healthcare."</p>

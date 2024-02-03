@@ -4,7 +4,7 @@ import Container from '../../components/container/Container'
 import arrow from '../../Assets/icon/arrow.svg'
 const Contact = () => {
     return (
-        <div className='my-16 md:p-0 w-full h-full '>
+        <div className='min-h-screen my-16 md:p-0 w-full h-full '>
             <Container>
                 <div className='text-2xl px-5  md:text-pretty md:px-20 md:ps-28 lg:ps-20 all-text  py-5 font-medium'>
                     <img className='mb-5 my-5' src={arrow} alt="" />
