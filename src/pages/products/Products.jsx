@@ -25,7 +25,7 @@ const Products = () => {
         </div>
 
         {/* ==================== */}
-        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto'>
+        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto md:gap-10 '>
           <div className=' w-[50%] kw:w-[100%] flex flex-col justify-center'>
             <div className=' border-l-4 border-black my-4'>
               <h1 className=' py-3 px-2 text-[28px] font-medium'>Streamlined Appointment Management</h1>
@@ -39,7 +39,7 @@ const Products = () => {
           </div>
         </div>
 
-        <div className=' flex w-[80%] kw:flex-col  mx-auto my-6 '>
+        <div className=' flex w-[80%] kw:flex-col  mx-auto my-6  md:gap-10'>
           <div className=' w-[50%] kw:w-[80%] flex flex-col justify-center'>
             <div className=' border-l-4 border-black my-4'>
               <h1 className=' py-3 px-2 text-[28px] font-medium'>Follow-Up Appointments Made Easy</h1>
@@ -58,7 +58,7 @@ const Products = () => {
           </div>
         </div>
 
-        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto'>
+        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto md:gap-10'>
           <div className=' w-[50%] kw:w-[100%] flex flex-col justify-center'>
             <div className=' border-l-4 border-black my-4'>
               <h1 className=' py-3 px-2 text-[28px] font-medium'> WhatsApp Integration for Enhanced Communication</h1>
@@ -73,7 +73,7 @@ const Products = () => {
             <img src={second} />
           </div>
         </div>
-        <div className=' flex w-[80%] kw:flex-col  mx-auto my-6 '>
+        <div className=' flex w-[80%] kw:flex-col  mx-auto my-6 md:gap-10'>
           <div className=' w-[50%] kw:w-[80%] flex flex-col justify-center'>
             <div className=' border-l-4 border-black my-4'>
               <h1 className=' py-3 px-2 text-[28px] font-medium'>Secure Payment Processing</h1>
@@ -81,7 +81,7 @@ const Products = () => {
             <p className='text-[16px]'>Receive payments securely and effortlessly with our integrated payment processing system. Say goodbye to the hassles of traditional payment methods and offer your patients a seamless payment experience.</p>
           </div>
         </div>
-        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto'>
+        <div className=' flex flex-col sm:flex-row w-[80%] mx-auto md:gap-10'>
           <div className=' w-[50%] kw:w-[100%] flex flex-col justify-center'>
             <div className=' border-l-4 border-black my-4'>
               <h1 className=' py-3 px-2 text-[28px] font-medium'>Data-Driven Insights</h1>

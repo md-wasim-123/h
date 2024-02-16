@@ -6,34 +6,38 @@ import Card from '../Card/Card'
 import Button from '../Button/Button'
 
 const Banner = () => {
+    const [imageIndex, setImageIndex] = useState(0);
+    const [count, setCount] = useState(0);
+    const [anime, setanime] = useState('animateee')
+
 
 
     let interval;
 
     useEffect(() => {
         let images = document.querySelectorAll('.animateee');
-        let animationCount = 1;
-             interval = setInterval(() => {
+        console.log(images)
+        let animationCount = 0;
+            interval = setInterval(() => {
             images.forEach((e) => {
                 e.classList.remove('animateee1');
             });
             animationCount === 3 ? (animationCount = 0) : null;
-            images[animationCount++].classList.add("animateee1");
-        }, 4000);
+            images[animationCount++].classList.add('animateee1');
+        }, 2500);
         return () => clearInterval(interval);
     }, []);
     
-
     return (
-        <div className='w-full bg-img overflow-hidden py-10 md:py-24 '>
+        <div className='2xl:container 2xl:mx-auto w-full bg-img overflow-hidden py-10 md:py-24 '>
             <div className=" w-full flex flex-col-reverse md:flex-row items-stretch md:justify-around md:10  py-5 md:pt-10 mx-auto h-[60rem] md:h-auto">
                 <div className="flex  items-center py-20 md:w-1/2 sm:px-5 md:px-2 md:pb-20 md:pt-10 px-2 lg:px-[4.5rem] ">
                     <div className="text-left">
                         <h2 className="text-[35px] all-text font-bold leading-[3.7rem]  text-gray-800 md:text-[48px]">
-                        Let's elevate your clinic together!
+                            Let's elevate your clinic together!
                         </h2>
                         <p style={{ lineHeight: "1.5rem" }} className="w-full text-sm text-black sm:text-lg md:text-[16px] ">
-                    Our innovative solution is designed to seamlessly integrate into your clinic, transforming the way you manage appointments, streamline operations, and prioritize patient care.
+                            Our innovative solution is designed to seamlessly integrate into your clinic, transforming the way you manage appointments, streamline operations, and prioritize patient care.
                         </p>
 
                         <div className="flex flex-col justify-around py-2 gap-5 w-full  ">
@@ -60,12 +64,10 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="overflow-hidden flex-1 relative w-[100%]  -mt-5 ">
-
-                    <img className=' max-w-[500px] animateee animateee1' src={laptop} />
-                    <img className=' max-w-[400px] animateee ' src={tab} />
-                    <img className=' max-w-[400px] animateee ' src={mobile} />
-
+                <div className="overflow-hidden flex-1 relative w-full -mt-5 ">
+                    <img className="animateee animateee1 " src={laptop} />
+                    <img className="animateee  " src={tab} />
+                    <img className="animateee  " src={mobile} />
                 </div>
             </div>
             <div className='px-2'>

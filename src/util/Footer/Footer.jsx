@@ -106,7 +106,7 @@ const Footer = () => {
               <a href="#" className="hover:underline"><i className="fa-solid fa-phone me-2 text-xl"></i>+91-7853040929</a>
             </li>
             <li className='py-2 '>
-              <Link to={'/'} className="hover:underline flex items-center justify-center gap-3"><img src={location} alt="" />
+              <Link to={'/'} className="hover:underline flex items-center  gap-3"><img src={location} alt="" />
                 <p>No.12(2) Veerazhagamman Street
                   Bodinayakanur, Theni, Tamil Nadu</p>
               </Link>
