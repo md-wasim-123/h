@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
         <nav className=" fixed top-0 w-full z-10 shadow-md bg-white">
-            <div className="2xl:container 2xl:mx-auto  w-full  px-2 py-2 md:px-16 flex lg:flex-row flex-wrap items-center justify-between ">
+            <div className="2xl:container 2xl:mx-auto  w-full  px-2 py-3 md:px-16 flex lg:flex-row flex-wrap items-center justify-between ">
                 <Link to={'/'} className="flex items-center px-2 md:px-0">
                     <img src={logo} className="w-36 md:w-52 object-cover" alt="Flowbite Logo" />
                 </Link>
